@@ -1,0 +1,5 @@
+# Bundle patch: one insert row that loads this package's host entry (a plain
+# Cordis plugin). The profile's later patch layers may override or disable it.
+- insert:
+    - id: session-folders
+      name: dsh-session-folders
