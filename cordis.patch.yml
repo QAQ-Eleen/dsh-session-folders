@@ -2,4 +2,4 @@
 # Cordis plugin). The profile's later patch layers may override or disable it.
 - insert:
     - id: session-folders
-      name: dsh-session-folders
+      name: dsh-folders-per-session

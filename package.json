@@ -1,5 +1,5 @@
 {
-  "name": "dsh-session-folders",
+  "name": "dsh-folders-per-session",
   "version": "0.1.0",
   "description": "DSH 会话归位：每个会话一个时间文件夹，产物不再堆在工作区根目录 / One dated folder per DSH session.",
   "type": "module",

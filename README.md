@@ -1,4 +1,4 @@
-# dsh-session-folders · 会话归位
+# dsh-folders-per-session · 会话归位
 
 **每个会话一个时间文件夹，产物不再堆在工作区根目录。**
 **One dated folder per DSH session, so artifacts stop piling up in the workspace root.**
@@ -18,10 +18,10 @@ D:\AI\DSHwenjian\
 
 ```sh
 # 桌面版
-dsh plugin --profile desktop add dsh-session-folders
+dsh plugin --profile desktop add dsh-folders-per-session
 
 # Web 版
-dsh plugin --profile web add dsh-session-folders
+dsh plugin --profile web add dsh-folders-per-session
 ```
 
 装好后在 DSH 的插件设置里能看到 `session-folders` 一行，配置项就在那里改；不想要时把
