@@ -108,3 +108,12 @@ test('the /folder command returns a success result with the path', async () => {
     await rm(root, { recursive: true, force: true })
   }
 })
+
+test('render returns content blocks for the transcript', () => {
+  const { ctx, calls } = fakeCtx()
+  apply(ctx, {})
+  const blocks = calls.tools[0].output.render({}, { path: 'D:/x/26-11-07_2100' })
+  assert.ok(Array.isArray(blocks))
+  assert.equal(blocks[0].type, 'text')
+  assert.match(blocks[0].text, /26-11-07_2100/)
+})

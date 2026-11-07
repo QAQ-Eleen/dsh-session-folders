@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- 修复：`session_folder` 的工具结果读取失败（`content.some is not a function`）——`render` 现在返回内容块数组，而不是裸对象。
+- 新增测试：校验 `render` 的输出形状。
+
 ## 0.1.0
 
 - 首版：`session_folder` 工具、`/folder` 与 `/sf` 命令、双语系统提示注入。
